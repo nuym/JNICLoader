@@ -9,7 +9,6 @@ public class JNICLoader {
 
 
     static {
-        //System.out.println("[Fl0wowP4rty] Loding Native Libraries...");
         String osname = System.getProperty("os.name").toLowerCase();
         String osarch = System.getProperty("os.arch").toLowerCase();
         String arch = "raw"+osarch;
